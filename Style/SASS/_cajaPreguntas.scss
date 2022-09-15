@@ -1,0 +1,36 @@
+#seccion-preguntas{
+    width: 100%;
+    .caja-pregunta{
+        display: block;
+        float: left;
+        height: 250px;
+        background-color: $color-verde;
+        color: $color-fondo;
+        width: 40%;
+        border: solid 2px $color-fondo-secundaria;
+        border-radius: 5px;
+        h4{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+        }
+        h5{
+            width: 80%;
+            margin: 10px auto 50px auto;
+        }
+    }
+    #first_box, #abajo_box{
+        margin: 10px 2% 10px 8%;
+    }
+    #abajo_box{
+        background-color: $color-pregunta-2;
+    }
+    #segun_box, #abajo_box_2{
+        background-color: $color-pregunta-1;
+        margin: 10px 8% 10px 2%;
+    }
+    #abajo_box_2{
+        background-color: $color-pregunta-3;
+    }
+}

@@ -1,0 +1,135 @@
+#navegacion {
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+  margin-bottom: 5%;
+}
+#navegacion .container-fluid img {
+  display: block;
+  float: left;
+}
+#navegacion .container-fluid #listado {
+  width: 40%;
+}
+#navegacion .container-fluid #listado ul li {
+  width: 20%;
+  display: block;
+  float: left;
+  padding: 21px;
+  text-align: center;
+  border-bottom: solid 5px transparent;
+}
+#navegacion .container-fluid #listado ul li a {
+  text-decoration: none;
+  color: #393E41;
+  padding: 22px 5px 28px 5px;
+}
+#navegacion .container-fluid #listado ul li:hover {
+  border-bottom: solid 5px #E7BB41;
+}
+#navegacion .container-fluid #listado ul li:hover a {
+  color: #E7BB41;
+}
+
+.caja-principal {
+  width: 70%;
+  height: 400px;
+  border: 1px solid #D3D0CB;
+  margin: 5% auto;
+  border-radius: 10px;
+}
+.caja-principal img {
+  width: 30%;
+  margin: 155px 100px;
+}
+.caja-principal #presentacion {
+  width: 500px;
+  margin: 100px 0px;
+}
+.caja-principal .caja {
+  display: block;
+  float: left;
+}
+
+.secciones {
+  border-bottom: solid 5px #E7BB41;
+  width: 20%;
+  text-align: center;
+  padding: 7px;
+  margin: 10px auto 40px auto;
+}
+
+#seccion-objetivo, #seccion-clientes, #seccion-comercio {
+  margin: 100px auto 80px auto;
+}
+
+#Objetivo #presentacion {
+  text-align: center;
+  width: 80%;
+  margin: 150px 10%;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+
+#back-inicio {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  background-color: #004b49;
+  border-radius: 200px;
+}
+#back-inicio img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  filter: grayscale(100%);
+}
+
+#back-inicio:hover img {
+  filter: none;
+}
+
+#seccion-preguntas {
+  width: 100%;
+}
+#seccion-preguntas .caja-pregunta {
+  display: block;
+  float: left;
+  height: 250px;
+  background-color: #44BBA4;
+  color: #E7E5DF;
+  width: 40%;
+  border: solid 2px #D3D0CB;
+  border-radius: 5px;
+}
+#seccion-preguntas .caja-pregunta h4 {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+#seccion-preguntas .caja-pregunta h5 {
+  width: 80%;
+  margin: 10px auto 50px auto;
+}
+#seccion-preguntas #first_box, #seccion-preguntas #abajo_box {
+  margin: 10px 2% 10px 8%;
+}
+#seccion-preguntas #abajo_box {
+  background-color: #f09425;
+}
+#seccion-preguntas #segun_box, #seccion-preguntas #abajo_box_2 {
+  background-color: #004b49;
+  margin: 10px 8% 10px 2%;
+}
+#seccion-preguntas #abajo_box_2 {
+  background-color: #28a745;
+}
+
+/*# sourceMappingURL=style.css.map */

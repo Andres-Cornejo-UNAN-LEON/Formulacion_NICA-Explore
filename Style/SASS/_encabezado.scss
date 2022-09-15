@@ -1,0 +1,36 @@
+#navegacion{
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin-bottom: 5%;
+    .container-fluid{
+        img{
+            display: block;
+            float: left;
+        }
+        #listado{
+            width: 40%;
+            ul{
+                li{
+                    width: 20%;
+                    display: block;
+                    float: left;
+                    padding: 21px;
+                    text-align: center;
+                    border-bottom: solid 5px transparent;
+                    a{
+                        text-decoration: none;
+                        color: $color-negro;
+                        padding: 22px 5px 28px 5px;
+                    }
+                }
+                li:hover{
+                    border-bottom: solid 5px $color-amarrillo;
+                    a{
+                        color: $color-amarrillo;
+                    }
+                }
+            }
+        }
+    }
+}
